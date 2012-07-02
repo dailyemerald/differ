@@ -27,7 +27,7 @@ cleanup = ->
         console.log 'time to rumble'       
         child = exec 'git add . && git commit -a -m "differ" && git push origin master', (error, stdout, stderr) ->
             console.log stdout
-            if error not null
+            if error
                 console.log 'error', error
     else     
       console.log(storiesRunning + ' left.')
