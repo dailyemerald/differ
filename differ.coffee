@@ -31,9 +31,10 @@ cleanup = ->
                 console.log 'error', error
     else     
       console.log(storiesRunning + ' left.')
+      
     return
     
-cleanupInterval = setInterval(cleanup, 1000)
+cleanupInterval = setInterval(cleanup, 2000)
        
 jsdom.env 'http://www.dailyemerald.com', (err, window) ->
     for url in window.document.getElementsByTagName 'a'
