@@ -1,0 +1,78 @@
+
+
+
+Related topics: 2012 Olympic trials, 2012 Olympic Trials print edition
+ .entry-content 
+
+
+
+ .entry-utility 
+ #post-## 
+
+
+← Report: Vin Lananna to step down as head coach of Oregon track and field, Robert Johnson will take his place
+Heat sheet for June 30 of the Olympic Trials →
+ #nav-below 
+
+
+
+                    
+            
+                
+        
+    
+
+
+/* <![CDATA[ */
+    var disqus_url = 'http://dailyemerald.com/2012/06/30/todays-edition-2012-olympic-trials-day-9/';
+    var disqus_identifier = '2259173 http://dailyemerald.com/?p=2259173';
+    var disqus_container_id = 'disqus_thread';
+    var disqus_domain = 'disqus.com';
+    var disqus_shortname = 'dailyemerald';
+    var disqus_title = "Today’s Edition: 2012 Olympic Trials Day 9";
+        var disqus_config = function () {
+        var config = this; // Access to the config object
+
+        /* 
+           All currently supported events:
+            * preData — fires just before we request for initial data
+            * preInit - fires after we get initial data but before we load any dependencies
+            * onInit  - fires when all dependencies are resolved but before dtpl template is rendered
+            * afterRender - fires when template is rendered but before we show it
+            * onReady - everything is done
+         */
+
+        config.callbacks.preData.push(function() {
+            // clear out the container (its filled for SEO/legacy purposes)
+            document.getElementById(disqus_container_id).innerHTML = '';
+        });
+                config.callbacks.onReady.push(function() {
+            // sync comments in the background so we don't block the page
+            DISQUS.request.get('?cf_action=sync_comments&post_id=2259173');
+        });
+                    };
+    var facebookXdReceiverPath = 'http://dailyemerald.com/wp-content/plugins/disqus-comment-system/xd_receiver.htm';
+/* ]]> */
+
+
+
+/* <![CDATA[ */
+    var DsqLocal = {
+        'trackbacks': [
+        ],
+        'trackback_url': "http:\/\/dailyemerald.com\/2012\/06\/30\/todays-edition-2012-olympic-trials-day-9\/trackback\/"    };
+/* ]]> */
+
+
+
+/* <![CDATA[ */
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = 'http://' + disqus_shortname + '.' + disqus_domain + '/embed.js?pname=wordpress&pver=2.66';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+/* ]]> */
+
+
+
