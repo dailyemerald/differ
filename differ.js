@@ -34,11 +34,11 @@
   cleanup = function() {
     var child;
     if (storiesRunning === 0) {
-      cleanInterval(cleanupInterval);
+      clearInterval(cleanupInterval);
       console.log('time to rumble');
       child = exec('git add . && git commit -a -m "differ" && git push origin master', function(error, stdout, stderr) {
         console.log(stdout);
-        if (error(!null)) {
+        if (error) {
           return console.log('error', error);
         }
       });
@@ -47,7 +47,7 @@
     }
   };
 
-  cleanupInterval = setInterval(cleanup, 1000);
+  cleanupInterval = setInterval(cleanup, 2000);
 
   jsdom.env('http://www.dailyemerald.com', function(err, window) {
     var fileName, fullURL, url, _i, _len, _ref, _results;
